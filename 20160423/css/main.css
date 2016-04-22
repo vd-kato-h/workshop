@@ -1,0 +1,39 @@
+#container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	padding: 20px;
+	background: #CCCCCC;
+}
+
+#main{
+	width: 1024px;
+	height: 1024px;
+	padding: 50px 0;
+	background: #EEEEEE;
+
+}
+
+#wrapper{
+	position: relative;
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	background: #FFCCCC;
+}
+	.mover{
+		position: absolute;
+		display: block;
+		width: 200px;
+		height:200px;
+		background: #CCCCFF;
+	}
+		.mover2{
+		position: absolute;
+		display: block;
+		width: 50px;
+		height:50px;
+		background: #CCFFCC;
+	}
