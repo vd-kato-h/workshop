@@ -21,8 +21,11 @@
 				<span class="mover2">
 				</span>
 			</span>
+			<div class="value">
+			</div>
 		</div>
 	
+	<a href="javascript:void(0);" id="clearInterval">値取得クリア</a>
 	</div>
 
 </div>

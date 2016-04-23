@@ -38,4 +38,24 @@ $(document).ready(function() {
 
 	func2();
 	
+	var valInterval;
+	
+	function getVal(){
+		valInterval = setInterval(function(){
+					$(".value").html("blue_leftPos = "+$(".mover").css("left")+"<br>"+
+														"blue_topPos = "+$(".mover").css("top")+"<br>"+
+														"green_leftPos = "+$(".mover2").css("left")+"<br>"+
+														"green_topPos = "+$(".mover2").css("top")+"<br>"
+														);
+				},70);
+	
+	}
+	
+	getVal();
+	
+	$("#clearInterval").click(function() {
+		$(".value").html("値取得終了");
+		clearInterval(valInterval);
+		$(this).fadeOut(1000);
+	});
 });

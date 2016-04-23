@@ -37,3 +37,8 @@ header{
 		height:50px;
 		background: #CCFFCC;
 	}
+		.value{
+		position: absolute;
+		z-index: 100;
+		display: block;
+	}
